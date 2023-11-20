@@ -15,14 +15,20 @@ const config: Config = {
           "teal-light": "#09757A",
           "teal-lighter": "#D8EFEF",
           charcoal: "#111111",
+          "charcoal-light": "#2B2B2B",
         },
       },
+
       fontFamily: {
         sans: ["var(--gds-font-sans)", ...defaultTheme.fontFamily.sans],
         sage: ["var(--gds-font-sage)", "times-new-roman", "sans-serif"],
       },
+      animation: {
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 };
 export default config;

@@ -3,9 +3,10 @@ import localFont from "next/font/local";
 const GDSherpa = localFont({
   src: [
     {
-      path: "../public/fonts/gdsherpa-vf.ttf",
+      path: "../public/fonts/GDSherpa-Regular.woff2",
     },
   ],
+  display: "swap",
   preload: true,
   variable: "--gds-font-sans",
 });
@@ -13,9 +14,10 @@ const GDSherpa = localFont({
 const GDSage = localFont({
   src: [
     {
-      path: "../public/fonts/gd-sage-bold.ttf",
+      path: "../public/fonts/GDSage-Bold.woff2",
     },
   ],
+  display: "swap",
   preload: true,
   variable: "--gds-font-sage",
 });

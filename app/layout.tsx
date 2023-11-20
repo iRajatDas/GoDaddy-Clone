@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import { Providers } from "@/components/providers";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
+import { TailwindIndicator } from "@/components/tailwind-indicator";
 
 const siteConfig = {
   name: "Next.js Starter",
@@ -42,6 +43,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               <div className="flex-1">{children}</div>
               <SiteFooter />
             </div>
+            <TailwindIndicator />
           </Providers>
         </body>
       </html>
