@@ -9,6 +9,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        "2xs": "0.825rem",
+        "3xs": "0.625rem",
+        "4xs": "0.5rem",
+      },
       colors: {
         brand: {
           "teal-dark": "#00838C",
@@ -16,6 +21,7 @@ const config: Config = {
           "teal-lighter": "#D8EFEF",
           charcoal: "#111111",
           "charcoal-light": "#2B2B2B",
+          gray: "#BAC0C3",
         },
       },
 

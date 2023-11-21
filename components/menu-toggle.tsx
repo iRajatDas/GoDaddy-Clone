@@ -7,7 +7,7 @@ const MenuToggle = () => {
   const toggle = useMenuStore((state) => state.toggleMenu);
 
   return (
-    <button className="grid place-items-center" onClick={toggle} role="menu" title="Navigation">
+    <button className="place-items-center xl:hidden grid" onClick={toggle} role="menu" title="Navigation">
       <Menu />
     </button>
   );

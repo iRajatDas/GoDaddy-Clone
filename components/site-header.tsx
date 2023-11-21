@@ -17,7 +17,7 @@ export const SiteHeader = () => {
             >
               <Icons.GoDaddy className="shrink-0" />
               <span className="sr-only">GoDaddy Logo</span>
-              <span className="text-[0.625rem] hidden md:inline-block ml-auto absolute- right-0-- font-semibold end-1">
+              <span className="text-3xs hidden md:inline-block ml-auto absolute- right-0-- font-semibold end-1">
                 India
               </span>
             </Link>
